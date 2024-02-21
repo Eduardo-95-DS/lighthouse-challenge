@@ -66,6 +66,7 @@ Todos os códigos produzidos devem seguir as boas práticas de codificação.
  
 
 # **2. Business assumptions**
+
 As premissas sobre o problema de negócio foram as seguintes:       
 -   
 -   
