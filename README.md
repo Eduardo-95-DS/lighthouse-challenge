@@ -11,12 +11,59 @@
 look_4.0-ear-hp_tuning-error_analysis.ipynb ou look_4.0-ear-model_apply.ipynb**
 
 # **1. Business problem**
-Rossmann is a european drug store, which have over 3,000 unities in 7 european countries.    
+Você foi alocado(a) em um time da Indicium que está trabalhando atualmente junto a um cliente no processo de criação de uma plataforma de aluguéis temporários na cidade de Nova York. Para o desenvolvimento de sua estratégia de precificação, pediu para que a Indicium fizesse uma análise exploratória dos dados de seu maior concorrente, assim como um teste de validação de um modelo preditivo.    
 
-Normally thousands of store managers predict their daily sales up to for six weeks in advance based on their own empirical experience, but important factors like seasonality, locality and holidays across Europe leads to a unreliable precision.   
+Seu objetivo é desenvolver um modelo de previsão de preços a partir do dataset oferecido, e avaliar tal modelo utilizando as métricas de avaliação que mais fazem sentido para o problema.        
 
-Therefore the goal is to improve the prediction using a machine learning algorithm while also making possible for the CFO to consult the six weeks prediction via a Telegram bot.        
+Entregas:
+- Faça uma análise exploratória dos dados (EDA), demonstrando as principais características entre as variáveis e apresentando algumas hipóteses de negócio relacionadas. Seja criativo!
+  
+- Responda também às seguintes perguntas:
+  
+- Supondo que uma pessoa esteja pensando em investir em um apartamento para alugar na plataforma, onde seria mais indicada a compra?
 
+- O número mínimo de noites e a disponibilidade ao longo do ano interferem no preço?   
+
+- Existe algum padrão no texto do nome do local para lugares de mais alto valor?    
+
+- Explique como você faria a previsão do preço a partir dos dados. 
+Quais variáveis e/ou suas transformações você utilizou e por quê?    
+Qual tipo de problema estamos resolvendo (regressão, classificação)?    
+Qual modelo melhor se aproxima dos dados e quais seus prós e contras?     
+Qual medida de performance do modelo foi escolhida e por quê?
+
+- Supondo um apartamento com as seguintes características:
+
+{'id': 2595,
+ 'nome': 'Skylit Midtown Castle',
+ 'host_id': 2845,
+ 'host_name': 'Jennifer',
+ 'bairro_group': 'Manhattan',
+ 'bairro': 'Midtown',
+ 'latitude': 40.75362,
+ 'longitude': -73.98377,
+ 'room_type': 'Entire home/apt',
+ 'price': 225,
+ 'minimo_noites': 1,
+ 'numero_de_reviews': 45,
+ 'ultima_review': '2019-05-21',
+ 'reviews_por_mes': 0.38,
+ 'calculado_host_listings_count': 2,
+ 'disponibilidade_365': 355}
+
+Qual seria a sua sugestão de preço?     
+
+Salve o modelo desenvolvido no formato .pkl.       
+
+- A entrega deve ser feita através de um repositório de código público que contenha:
+     
+  README explicando como instalar e executar o projeto   
+  Arquivo de requisitos com todos os pacotes utilizados e suas versões   
+  Relatórios das análises estatísticas e EDA em PDF, Jupyter Notebook ou semelhante conforme passo 1 e 2.    
+  Códigos de modelagem utilizados no passo 3 (pode ser entregue no mesmo Jupyter Notebook).    
+  Arquivo .pkl conforme passo 5 acima.    
+Todos os códigos produzidos devem seguir as boas práticas de codificação.
+ 
 
 # **2. Business assumptions**
 The assumptions about the business problem are as follows:       
