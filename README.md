@@ -71,23 +71,23 @@ As premissas sobre o problema de negócio foram as seguintes:
 -   
 
 # **3. Solution strategy**
-- Step 01. Data description: My goal is to use statistics metrics to identify data outside the scope of business.   
+- Step 01. Data description: Usar métricas estatísticas para entender os dados. 
 
-- Step 02. Feature engineering: Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.    
+- Step 02. Feature engineering: Derivar novos atributos com base nas variáveis ​​originais para melhor descrever o fenômeno que será modelado.    
 
-- Step 03. Data filtering: Filter rows and select columns that do not contain information for modeling or that do not match the scope of the business.   
+- Step 03. Data filtering: Filtrar linhas e colunas que não contenham informações para modelagem ou que não correspondam ao escopo do negócio.   
 
-- Step 04. Exploratory data analysis: Explore the data to find insights and better understand the impact of variables on model learning.   
+- Step 04. Exploratory data analysis: Explorar os dados para encontrar insights e compreender melhor o impacto das variáveis ​​no aprendizado do modelo.   
 
-- Step 05. Data preparation: Prepare the data so that the Machine Learning models can learn the specific behavior.   
+- Step 05. Data preparation: Preparar os dados para que os modelos de Machine Learning possam aprender o comportamento específico.
+- 
+- Step 06. Feature selection: Seleção dos atributos mais significativos para treinamento do modelo.   
 
-- Step 06. Feature selection: Selection of the most significant attributes for training the model.   
+- Step 07. Machine learning modelling: Treinamento do modelo de aprendizado de máquina.
 
-- Step 07. Machine learning modelling: Machine Learning model training.   
+- Step 08. Hyperparameter fine tunning: Escolha os melhores valores para cada um dos parâmetros do modelo selecionado na etapa anterior.   
 
-- Step 08. Hyperparameter fine tunning: Choose the best values for each of the parameters of the model selected from the previous step.   
-
-- Step 09. Convert model performance to business values: Convert the performance of the Machine Learning model into a business result.   
+- Step 09. Convert model performance to business values: Converter o desempenho do modelo de Machine Learning em resultado de negócio.   
 
 - Step 10. Entregas: Responder ás requisições. 
 
