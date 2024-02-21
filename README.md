@@ -114,4 +114,7 @@ O objetivo principal do projeto que era criar um modelo para prever os preços p
 - Realizar a tunagem nos modelos XGBoost e RandomForest.    
 - Tentar realizar novamente criação de features.    
 - Colocar o modelo em produção junto de alguma ferramenta de visualização. 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8ae0a3e8380adc3489ac39be35860dc027b30b7
