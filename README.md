@@ -5,7 +5,7 @@
 
 **Para instalar e executar o projeto, é recomendado que se crie um ambiente virtual (com pyenv por ex) com python versão 3.10.4, baixe o repositório localmente e instale as bibliotecas necessárias com o comando pip install -r requirements.txt dentro da pasta do projeto.**      
 
-**Para visualizar rapidamente os resultados, pode-se usar o notebook look_4.0-ear-model_apply.ipynb, que contém apenas os códigos necessários para treinar o modelo, fazer o cross validation, prever os dados de teste (com o modelo carregado em pickle já com os melhores parâmetros) e obter os resultados de negócio.**    
+**Para implementar rapidamente o modelo, pode-se usar o notebook look_5.0-ear-model_apply.ipynb, que contém apenas os códigos necessários para treinar o modelo, fazer o cross validation ou prever os dados de teste com o modelo carregado em pickle já com os melhores parâmetros, e obter os resultados de negócio.**    
 
 **A EDA completa pode ser encontradas no notebook look_2.0-ear-eda_data-preparation.ipynb, e as ENTREGAS completas na última seção dos notebooks
 look_4.0-ear-hp_tuning-error_analysis.ipynb ou look_5.0-ear-model_apply.ipynb**
