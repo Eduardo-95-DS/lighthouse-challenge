@@ -89,7 +89,7 @@ As premissas sobre o problema de negócio foram as seguintes:
 
 - Step 09. Convert model performance to business values: Converter o desempenho do modelo de Machine Learning em resultado de negócio.   
 
-- Step 10. Entregas: Responder ás requisições. 
+- Step 10. Entregas: Responder às requisições. 
 
 # **4. Top 3 data insights**
 
@@ -114,7 +114,4 @@ O objetivo principal do projeto que era criar um modelo para prever os preços p
 - Realizar a tunagem nos modelos XGBoost e RandomForest.    
 - Tentar realizar novamente criação de features.    
 - Colocar o modelo em produção junto de alguma ferramenta de visualização. 
-<<<<<<< HEAD
 
-=======
->>>>>>> b8ae0a3e8380adc3489ac39be35860dc027b30b7
