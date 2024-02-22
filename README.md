@@ -96,8 +96,8 @@ As premissas sobre o problema de negócio foram as seguintes:
 # **4. Top 3 data insights**
 
 **Hypothesis 01:**  
- **Manhattan tem em média preços pelo menos 30% maiores**
- *Verdadeiro*     
+ **Manhattan tem em média preços pelo menos 30% maiores**    
+ ***Verdadeiro***
  ![1](https://github.com/Eduardo-95-DS/lighthouse-challenge/assets/95311171/34feae45-edc9-4fde-bbb6-a6d897afc39b)    
  
 A diferença percentual da média de Manhattan em relação às outras cidades:
@@ -112,7 +112,7 @@ A diferença percentual da média de Manhattan em relação às outras cidades:
  
 **Hypothesis 02:**       
 **Room type do tipo 'Entire home/apt' são pelo menos 100% mais caros em média**    
-*Falso*    
+***Falso***    
 ![2](https://github.com/Eduardo-95-DS/lighthouse-challenge/assets/95311171/9649db69-18ed-45e7-a002-3cca73b096c2)   
 
   |room_type |  diff_percent|   
@@ -122,6 +122,13 @@ A diferença percentual da média de Manhattan em relação às outras cidades:
   |Shared room    |-67.184348|
 
 **Hypothesis 03:**  
+ **Aluguéis disponíveis por no máximo uma semana são pelo menos 30% mais caros em média**         
+ ***Falso***       
+![3](https://github.com/Eduardo-95-DS/lighthouse-challenge/assets/95311171/d5b79a60-2015-436a-aea5-f09127fc73af)
+
+A média do preço para minimo_noites até 7 é: **154.79**    
+A média do preço para minimo_noites maior que 7 é: **147.16**    
+A diferença percentual é: **-5.18%**     
 
 # **5. Machine learning model applied**   
 
