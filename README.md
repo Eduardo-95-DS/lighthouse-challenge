@@ -96,7 +96,20 @@ As premissas sobre o problema de negócio foram as seguintes:
 # **4. Top 3 data insights**
 
 **Hypothesis 01:**  
+ **Manhattan tem em média preços pelo menos 30% maiores**
+ *Verdade*     
+ ![1](https://github.com/Eduardo-95-DS/lighthouse-challenge/assets/95311171/34feae45-edc9-4fde-bbb6-a6d897afc39b)    
+ 
+A diferença percentual da média de Manhattan em relação às outras cidades:
 
+  |bairro_group|  diff_percent|   
+  |-----------|---------|
+  |Manhattan      ||
+  |Brooklyn   |-36.945324|
+  |Staten Island    |-41.158341|
+  |Queens    |-49.250131|
+  |Bronx    |-55.832950|
+ 
 **Hypothesis 02:**       
 
 **Hypothesis 03:**  
