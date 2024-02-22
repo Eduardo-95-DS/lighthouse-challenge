@@ -7,8 +7,8 @@
 
 **Para implementar rapidamente o modelo, pode-se usar o notebook look_5.0-ear-model_apply.ipynb, que contém apenas os códigos necessários para treinar o modelo, fazer o cross validation ou prever os dados de teste com o modelo carregado em pickle já com os melhores parâmetros, e obter os resultados de negócio.**    
 
-**A EDA completa pode ser encontradas no notebook look_2.0-ear-eda_data-preparation.ipynb, e as ENTREGAS completas na última seção dos notebooks
-look_4.0-ear-hp_tuning-error_analysis.ipynb ou look_5.0-ear-model_apply.ipynb**
+**A EDA completa pode ser encontradas no notebook look_2.0-ear-eda_data-preparation.ipynb, e as ENTREGAS completas na última seção do notebook
+look_4.0-ear-hp_tuning-error_analysis.ipynb.**
 
 # **1. Business problem**
 Você foi alocado(a) em um time da Indicium que está trabalhando atualmente junto a um cliente no processo de criação de uma plataforma de aluguéis temporários na cidade de Nova York. Para o desenvolvimento de sua estratégia de precificação, pediu para que a Indicium fizesse uma análise exploratória dos dados de seu maior concorrente, assim como um teste de validação de um modelo preditivo.    
