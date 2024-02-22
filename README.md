@@ -82,7 +82,7 @@ As premissas sobre o problema de negócio foram as seguintes:
 - Step 04. Exploratory data analysis: Explorar os dados para encontrar insights e compreender melhor o impacto das variáveis ​​no aprendizado do modelo.   
 
 - Step 05. Data preparation: Preparar os dados para que os modelos de Machine Learning possam aprender o comportamento específico.
-- 
+  
 - Step 06. Feature selection: Seleção dos atributos mais significativos para treinamento do modelo.   
 
 - Step 07. Machine learning modelling: Treinamento do modelo de aprendizado de máquina.
@@ -97,7 +97,7 @@ As premissas sobre o problema de negócio foram as seguintes:
 
 **Hypothesis 01:**  
  **Manhattan tem em média preços pelo menos 30% maiores**
- *Verdade*     
+ *Verdadeiro*     
  ![1](https://github.com/Eduardo-95-DS/lighthouse-challenge/assets/95311171/34feae45-edc9-4fde-bbb6-a6d897afc39b)    
  
 A diferença percentual da média de Manhattan em relação às outras cidades:
@@ -111,6 +111,15 @@ A diferença percentual da média de Manhattan em relação às outras cidades:
   |Bronx    |-55.832950|
  
 **Hypothesis 02:**       
+**Room type do tipo 'Entire home/apt' são pelo menos 100% mais caros em média**    
+*Falso*    
+![2](https://github.com/Eduardo-95-DS/lighthouse-challenge/assets/95311171/9649db69-18ed-45e7-a002-3cca73b096c2)   
+
+  |room_type |  diff_percent|   
+  |-----------|---------|
+  |Entire home/apt       ||
+  |Private room    |-57.714187|
+  |Shared room    |-67.184348|
 
 **Hypothesis 03:**  
 
