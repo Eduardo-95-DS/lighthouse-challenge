@@ -170,6 +170,14 @@ Performance do modelo escolhido sobre os dados de teste após a escolha dos melh
 | 36280646  | $16.00    | $124.10          | $16.00             | $232.20           | 108.098336   | 676.51 %     |
 | 35612982  | $12.00    | $72.32           | $12.00             | $132.64           | 60.319440    | 503.33 %     |
 
+Valor total dos aluguéis: **$725,918.00**    
+Predições: **$632,748.18**    
+Diferença de **$93,169.82** (***12.83%***)    
+
+![5](https://github.com/Eduardo-95-DS/lighthouse-challenge/assets/95311171/10aad7b6-9747-4fd8-8e6f-08440dea84bc)
+No histograma (1° gráfico), quanto mais barras perto do zero melhor.     
+No de dispersão, quanto mais pontos acumulados horizontalmente na linha do zero, melhor.     
+
 # **8. Conclusions**
 O objetivo principal do projeto que era criar um modelo para prever os preços pode ser considerado concluído com sucesso.
 
