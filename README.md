@@ -151,7 +151,24 @@ Performance do modelo escolhido sobre os dados de teste após a escolha dos melh
 |-----------|---------|-----------|---------|
 |	CatBoost	|51.78667	|0.30798	|159.667159|
 
-# **7. Business results**
+# **7. Business results**   
+5 melhores previsões nos dados de teste (elencados pelo erro percentual e de acordo com a previsão feita):   
+|   id      |   price   |   predictions   |   worst_scenario   |   best_scenario   |   MAE       |   MAPE      |
+|-----------|-----------|------------------|--------------------|-------------------|-------------|-------------|
+| 15917981  | $190.00   | $190.00          | $189.99            | $190.00           | 0.003006    | 0.000016 %    |
+| 873465    | $115.00   | $115.01          | $115.00            | $115.02           | 0.008928    | 0.000078 %    |
+| 10008615  | $125.00   | $124.97          | $124.94            | $125.00           | 0.027619    | 0.000221 %   |
+| 34946772  | $65.00    | $65.02           | $65.00             | $65.03            | 0.015321    | 0.000236 %  |
+| 5327035   | $51.00    | $50.99           | $50.97             | $51.00            | 0.013900    | 0.000273 %  |
+
+5 piores previsoes (elencados pelo erro percentual e de acordo com a previsão feita):    
+|   id      |   price   |   predictions   |   worst_scenario   |   best_scenario   |   MAE        |   MAPE     |
+|-----------|-----------|------------------|--------------------|-------------------|--------------|------------|
+| 21304320  | $0.00     | $27.42           | $0.00              | $54.84            | 27.418561    | 123482200000000.00 % |
+| 25839759  | $10.00    | $128.74          | $10.00             | $247.49           | 118.744855   | 1187.45 %    |
+| 21981703  | $12.00    | $131.06          | $12.00             | $250.11           | 119.056949   | 992.14 %     |
+| 36280646  | $16.00    | $124.10          | $16.00             | $232.20           | 108.098336   | 676.51 %     |
+| 35612982  | $12.00    | $72.32           | $12.00             | $132.64           | 60.319440    | 503.33 %     |
 
 # **8. Conclusions**
 O objetivo principal do projeto que era criar um modelo para prever os preços pode ser considerado concluído com sucesso.
