@@ -68,8 +68,9 @@ Todos os códigos produzidos devem seguir as boas práticas de codificação.
 # **2. Business assumptions**
 
 As premissas sobre o problema de negócio foram as seguintes:       
--   
--   
+
+-   Presume-se que id e host_id são gerados aleatoriamente, portanto não possuem nenhuma importância na previsão dos preços.
+-   Os preços igual a zero, seja por erro de input ou por escolha do proprietário para talvez negociar com os interessados, foram substituídos por preços levando em conta a localização e o tipo de acomodamento.  
 
 # **3. Solution strategy**
 - Step 01. Data description: Usar métricas estatísticas para entender os dados. 
