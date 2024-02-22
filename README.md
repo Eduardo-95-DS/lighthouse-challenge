@@ -132,7 +132,7 @@ A diferença percentual é: **-5.18%**
 
 # **5. Machine learning model applied**      
 Os testes foram feitos testando cinco algoritmos e um modelo baseline baseado na média.   
-O modelo escolhido para realizar a etapa de fine-tuning e previsão em cima dos dados de teste foi o **CatBoostRegressor**, com base em sua performance no cross validation.     
+O modelo escolhido para realizar a etapa de calibragem dos hiperparâmetros e previsão em cima dos dados de teste foi o **CatBoostRegressor**, com base em sua performance no cross validation.           
 A principal métrica foi o MAE (erro médio absoluto); o MAPE(erro médio percentual absoluto) e o RMSE(Erro Quadrático Médio) foram utilizados para auxiliar no desenvolvimento dos modelos. 
 
 # **6. Machine learning model performance**
@@ -146,7 +146,7 @@ Performance final dos modelos no cross validation:
 | Lasso|80.413548	|0.606918	|181.342764|
 | Baseline model|88.610938|	0.872001	|178.589160|
 
-Performance do modelo escolhido sobre os dados de teste após a escolha dos melhores parâmetros(fine-tuning):    
+Performance do modelo escolhido sobre os dados de teste após a escolha dos melhores hiperparâmetros(fine-tuning):    
 | Model name | MAE | MAPE | RMSE | 
 |-----------|---------|-----------|---------|
 |	CatBoost	|51.78667	|0.30798	|159.667159|
@@ -181,8 +181,10 @@ No de dispersão, quanto mais pontos acumulados horizontalmente na linha do zero
 # **8. Conclusions**
 O objetivo principal do projeto que era criar um modelo para prever os preços pode ser considerado concluído com sucesso.
 
-# **9. Next steps to improve**   
+# **9. Lessons learned**     
+Nesse projeto, pela primeira vez utilizei a biblioteca Optuna para realizar a tunagem de hiperparâmetros.     
+
+# **10. Next steps to improve**   
 - Realizar a tunagem nos modelos XGBoost e RandomForest.    
-- Tentar realizar novamente criação de features.    
 - Colocar o modelo em produção junto de alguma ferramenta de visualização. 
 
