@@ -130,11 +130,26 @@ A média do preço para minimo_noites até 7 é: **154.79**
 A média do preço para minimo_noites maior que 7 é: **147.16**    
 A diferença percentual é: **-5.18%**     
 
-# **5. Machine learning model applied**   
-
+# **5. Machine learning model applied**      
+Os testes foram feitos testando cinco algoritmos e um modelo baseline baseado na média.   
+O modelo escolhido para realizar a etapa de fine-tuning e previsão em cima dos dados de teste foi o **CatBoostRegressor**, com base em sua performance no cross validation.     
+A principal métrica foi o MAE (erro médio absoluto); o MAPE(erro médio percentual absoluto) e o RMSE(Erro Quadrático Médio) foram utilizados para auxiliar no desenvolvimento dos modelos. 
 
 # **6. Machine learning model performance**
+Performance final dos modelos no cross validation:        
+| Model name | MAE | MAPE | RMSE | 
+|-----------|---------|-----------|---------|
+| CatBoost    | 53.207368	 | 0.316628 | 152.662339 | 
+| XGBoost 	|53.982947	|	0.324878|	152.752383 |
+| Random Forest 	|	54.361176	|0.329452|	153.149289
+| Linear Regression|	58.506377		|0.351993|	162.392385|
+| Lasso|80.413548	|0.606918	|181.342764|
+| Baseline model|88.610938|	0.872001	|178.589160|
 
+Performance do modelo escolhido sobre os dados de teste após a escolha dos melhores parâmetros(fine-tuning):    
+| Model name | MAE | MAPE | RMSE | 
+|-----------|---------|-----------|---------|
+|	CatBoost	|51.78667	|0.30798	|159.667159|
 
 # **7. Business results**
 
