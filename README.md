@@ -185,6 +185,7 @@ O objetivo principal do projeto que era criar um modelo para prever os preços p
 Nesse projeto, pela primeira vez utilizei a biblioteca Optuna para realizar a tunagem de hiperparâmetros.     
 
 # **10. Next steps to improve**   
-- Realizar a tunagem nos modelos XGBoost e RandomForest.    
+<s>- Realizar a tunagem nos modelos XGBoost e RandomForest.</s>    
+- Tentar criar features novamente
 - Colocar o modelo em produção junto de alguma ferramenta de visualização. 
 
